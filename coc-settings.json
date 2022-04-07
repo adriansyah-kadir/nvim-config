@@ -1,0 +1,33 @@
+{
+	"diagnostic.autoRefresh": true,
+	"diagnostic.refreshOnInsertMode": true,
+	"coc.preferences.formatOnSaveFiletypes": [
+		"css",
+		"html",
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact",
+		"json"
+	],
+	"diagnostic.floatConfig": {
+		"shadow": true
+	},
+	"sql.database": "mysql",
+	"html.format.indentInnerHtml": true,
+	"coc.preferences.formatOnType": true,
+	"tsserver.formatOnType": true,
+	"languageserver": {
+		"flow": {
+			"command": "flow",
+			"args": ["lsp"],
+			"filetypes": ["javascript", "javascriptreact"],
+			"initializationOptions": {},
+			"requireRootPattern": true,
+			"settings": {},
+			"rootPatterns": [".flowconfig"]
+		}
+	},
+	"eslint.autoFixOnSave": true,
+	"eslint.autoFix": true
+}
