@@ -88,8 +88,8 @@ nnoremap <silent><nowait> <space>a  :<C-u>CocList extensions<cr>
 " Show commands.
 nnoremap <silent><nowait> <space>c  :<C-u>CocList commands<cr>
 command CocPrettier :CocCommand prettier.forceFormatDocument
-command UltiSnipsEdit :CocCommand snippets.editSnippets
-imap <C-j> <Plug>(coc-snippets-expand)
+command UltiSnipsEdit :CocCommand snippets.openSnippetFiles
+imap <C-s> <Plug>(coc-snippets-expand)
 " Use <C-j> for select text for visual placeholder of snippet.
 vmap c <Plug>(coc-snippets-select)
 
@@ -109,3 +109,4 @@ nmap <space>j <C-w><Down>
 nmap <C-c> :%bd<CR><C-O>:bd#<CR>
 nmap <C-h> T>vt<
 nmap <C-t> T>dF<f<df>
+nnoremap <C-i> viwyggOimport<space><ESC>pA<space>from<space>'./<ESC>pA'<ESC>vi'

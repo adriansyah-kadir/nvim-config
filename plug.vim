@@ -14,7 +14,6 @@ if has("nvim")
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 	Plug 'mhinz/vim-startify'
 	Plug 'ap/vim-css-color'
-	Plug 'dag/vim-fish'
 	Plug 'ryanoasis/vim-devicons'
 	Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
 	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}

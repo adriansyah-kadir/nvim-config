@@ -46,8 +46,9 @@ let g:prettier#exec_cmd_async = 1
 let g:prettier#autoformat_require_pragma = 0
 let g:prettier#autoformat = 1
 let g:startify_bookmarks = [
-				\{'c':'~/.config/nvim/init.vim'},
-				\{'a':'~/.config/nvim'}
+				\{'i':'~/.config/nvim/init.vim'},
+				\{'p':'~/.config/nvim/plug.vim'},
+				\{'m': '~/.config/nvim/maps.vim'}
 			\]
 let g:startify_change_to_dir = 0
 let g:startify_files_number = 4
